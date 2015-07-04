@@ -2,6 +2,8 @@
 
 Test application with `Typescript` and `Webpack`.
 
+![](app/images/logo.png)
+
 ## Setup
 
 ```
@@ -12,5 +14,5 @@ npm install
 
 ## Commands
 
-`npm run build` - command run `webpack` to build `app/dist/main.js`
-`npm run watch` - build and listen files for modification.
+ - `npm run build` - command run `webpack` to build `app/dist/main.js`
+ - `npm run watch` - build and listen files for modification.

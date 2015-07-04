@@ -1,4 +1,5 @@
 {
+  "name": "test-typescript-webpack",
   "private": true,
   "scripts": {
     "build": "webpack",

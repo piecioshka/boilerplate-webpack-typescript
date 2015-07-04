@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "typescript-loader": "^1.1.3"
+  }
+}

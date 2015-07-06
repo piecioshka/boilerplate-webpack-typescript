@@ -2,7 +2,9 @@
   "name": "test-typescript-webpack",
   "private": true,
   "scripts": {
-    "build": "webpack",
+    "build-production": "webpack --config webpack-compressed.config.js",
+    "build-development": "webpack --config webpack-uncompressed.config.js",
+    "build": "npm run build-production && npm run build-development",
     "watch": "webpack --watch"
   },
   "devDependencies": {

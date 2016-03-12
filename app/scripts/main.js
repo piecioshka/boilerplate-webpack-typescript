@@ -1,7 +1,8 @@
 'use strict';
 
 var Foo = require('./modules/Foo.ts').Foo;
-console.log(Foo);
-
 var f = new Foo();
-console.log(f);
+
+console.info(Foo);
+console.info(f);
+console.info(Foo.bar());

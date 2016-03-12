@@ -1,9 +1,11 @@
+'use strict';
+
 export class Foo {
     constructor() {
-        console.log('Foo#constructor');
+        console.debug('Foo#constructor');
     }
 
-    get bar() {
+    static bar() {
         return 'bar';
     }
 }

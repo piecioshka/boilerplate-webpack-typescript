@@ -1,6 +1,6 @@
 # test-typescript-webpack
 
-> Test application with `Typescript` and `Webpack`.
+> Test application with `TypeScript` and `Webpack`.
 
 ![](app/images/logo.png)
 

@@ -1,6 +1,6 @@
 'use strict';
 
-var Foo = require('./modules/Foo.ts').Foo;
+var Foo = require('./modules/foo.ts').Foo;
 var f = new Foo();
 
 console.info(Foo);

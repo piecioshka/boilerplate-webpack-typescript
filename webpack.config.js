@@ -1,15 +1,16 @@
 'use strict';
 
 var path = require('path');
-var sources = path.join(__dirname, 'app', 'scripts');
-var dist = path.join(__dirname, 'app', 'dist');
-var regexp = new RegExp(sources + '\/(.*)\\.ts');
+var src = path.join(__dirname, 'src');
+var dist = path.join(__dirname, 'dist');
+var regexp = new RegExp(src + '\/(.*)\\.ts');
 
 module.exports = {
-    entry: sources + '/main.js',
+    entry: src + '/main.ts',
 
     output: {
-        filename: dist + '/bundle.js'
+        filename: 'bundle.js',
+        path: dist
     },
 
     module: {

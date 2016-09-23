@@ -1,5 +1,3 @@
-'use strict';
-
 export class Foo {
     constructor() {
         console.debug('Foo#constructor');

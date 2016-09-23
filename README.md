@@ -1,13 +1,13 @@
 # test-typescript-webpack
 
-> Test application with `TypeScript` and `Webpack`.
+> :ledger: Test application with `TypeScript 2` and `Webpack 2 (beta)`.
 
-![](app/images/logo.png)
+![](./images/logo.png)
 
 ## Setup
 
-Of course you should have installed `webpack` globally.
-
 ```
-npm install
+$ npm install
+$ npm run build
+$ # open dist/ in browser
 ```

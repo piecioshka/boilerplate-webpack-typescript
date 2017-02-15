@@ -13,6 +13,10 @@ module.exports = {
         path: dist
     },
 
+    resolve: {
+        extensions: ['.ts', '.js', '.json']
+    },
+
     module: {
         loaders: [
             {

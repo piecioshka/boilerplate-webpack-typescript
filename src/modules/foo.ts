@@ -1,4 +1,4 @@
-export class Foo {
+export default class Foo {
     constructor() {
         console.debug('Foo#constructor');
     }

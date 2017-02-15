@@ -2,7 +2,7 @@
 
 require('file-loader?name=[name].[ext]!./index.html');
 
-let Foo = require('./modules/foo.ts').Foo;
+import Foo from './modules/foo';
 let f = new Foo();
 
 console.info(Foo);

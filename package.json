@@ -3,16 +3,17 @@
     "name": "test-typescript-webpack",
     "version": "0.0.0",
     "scripts": {
-        "clear": "rm -rf node_modules/ typings/ dist/",
-        "build": "webpack --profile",
+        "clear": "rm -rf dist/",
+        "clear:all": "rm -rf node_modules/ typings/ && npm run clear",
+        "build": "webpack",
         "watch": "webpack --watch",
         "postinstall": "typings install env~node --global --save-dev"
     },
     "devDependencies": {
-        "file-loader": "^0.9.0",
-        "ts-loader": "^0.8.2",
-        "typescript": "^2.0.3",
-        "typings": "^1.4.0",
-        "webpack": "^2.0.0-beta"
+        "file-loader": "^0.10.0",
+        "ts-loader": "^2.0.0",
+        "typescript": "^2.1.6",
+        "typings": "^2.1.0",
+        "webpack": "^2.2.1"
     }
 }

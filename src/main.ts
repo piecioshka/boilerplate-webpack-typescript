@@ -1,10 +1,12 @@
 'use strict';
 
-require('file-loader?name=[name].[ext]!./index.html');
+require('./index.html');
 
 import Foo from './modules/foo';
-let f = new Foo();
 
-console.info(Foo);
-console.info(f);
-console.info(Foo.bar());
+const f = new Foo();
+
+console.log(Foo);
+console.log(f);
+console.log(Foo.bar());
+console.log(2 + 2);

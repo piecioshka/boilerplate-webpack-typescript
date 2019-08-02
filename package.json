@@ -1,19 +1,23 @@
 {
     "private": true,
     "name": "test-typescript-webpack",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "scripts": {
         "clear": "rm -rf dist/",
-        "clear:all": "rm -rf node_modules/ typings/ && npm run clear",
-        "build": "webpack",
-        "watch": "webpack --watch",
-        "postinstall": "typings install env~node --global --save-dev"
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "prebuild": "npm run clear",
+        "build": "webpack --mode development",
+        "build:prod": "webpack --mode production",
+        "start": "http-server dist/",
+        "watch": "npm run build -- --watch"
     },
     "devDependencies": {
-        "file-loader": "^0.10.0",
-        "ts-loader": "^2.0.0",
-        "typescript": "^2.1.6",
-        "typings": "^2.1.0",
-        "webpack": "^2.2.1"
+        "@types/node": "^12.6.9",
+        "http-server": "^0.11.1",
+        "file-loader": "^4.1.0",
+        "ts-loader": "^6.0.4",
+        "typescript": "^3.5.3",
+        "webpack": "^4.39.0",
+        "webpack-cli": "^3.3.6"
     }
 }

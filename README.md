@@ -1,15 +1,23 @@
 # test-typescript-webpack
 
-> :ledger: Test application with `TypeScript 2` and `Webpack 2`.
+:ledger: Test application with `TypeScript` and `Webpack`.
 
-![](./images/logo.png)
+![logo](./images/logo.png)
 
-## Setup
+## Development
 
+```bash
+npm run build # single mode
+# or
+npm run watch # observe and recompile
+npm start
 ```
-$ npm install
-$ npm run build
-$ # open dist/ in browser
+
+## Production
+
+```bash
+npm run build:prod
+npm start
 ```
 
 ## License

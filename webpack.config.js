@@ -18,10 +18,14 @@ module.exports = {
     },
 
     module: {
-        loaders: [
+        rules: [
             {
                 test: regexp,
                 loader: 'ts-loader'
+            },
+            {
+                test: (/\.html$/),
+                loader: `file-loader?name=[name].[ext]`
             }
         ]
     }

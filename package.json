@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "boilerplate-typescript-webpack",
+    "name": "boilerplate-webpack-typescript",
     "version": "1.0.0",
     "scripts": {
         "clear": "rm -rf dist/",

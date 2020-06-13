@@ -1,4 +1,4 @@
-# boilerplate-typescript-webpack
+# boilerplate-webpack-typescript
 
 🍴 Starter with TypeScript & Webpack
 

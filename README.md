@@ -1,6 +1,6 @@
-# test-typescript-webpack
+# boilerplate-typescript-webpack
 
-:ledger: Test application with `TypeScript` and `Webpack`.
+🍴 Starter with TypeScript & Webpack
 
 ![logo](./images/logo.png)
 

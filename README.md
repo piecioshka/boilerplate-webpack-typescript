@@ -6,7 +6,7 @@
 
 * ✅ Webpack
 * ✅ TypeScript
-* ✅ Static directory `dist/`
+* ✅ Distribution directory `dist/`
 * ✅ Development with `webpack-dev-server`
 * ✅ Hosting with `http-server`
 * ✅ Bundle file size analytics with `webpack-bundle-analyzer`
@@ -43,16 +43,21 @@ npm run build:development   # Development mode
 npm run build:production    # Production mode
 ```
 
-_Open `dist/` directory in browser by `npm start`._
+_TIP: Serve `dist/` directory by `npm start`_
 
 ## How to develop an application?
 
 ```bash
 npm run dev     # Use webpack-dev-server
+```
+
+or
+
+```bash
 npm run watch   # Use webpack -w
 ```
 
-_Open `dist/` directory in browser by `npm start`._
+_TIP: Serve `dist/` directory by `npm start`_
 
 ## Remove generated directory
 
